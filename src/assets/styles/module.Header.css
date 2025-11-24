@@ -1,0 +1,31 @@
+.nav{
+    height: 80px;
+    background-color: #eee;
+
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+
+.nav > ul{
+    display: flex;
+}
+
+.nav > ul > li {
+    list-style: none;
+    padding: 20px;
+}
+
+.nav li button{
+    text-decoration: none;
+    color: inherit;
+    border: 0;
+    cursor: pointer;
+    font-size: inherit
+}
+
+.nav li button:hover{
+    border-bottom: 3px solid #000;
+    transition: 200ms;
+    padding-bottom: 5px;
+}
